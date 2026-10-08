@@ -1,0 +1,5 @@
+print("Let's calculate the price per item!")
+pay=int(input("How much did you pay in total? > "))
+items=int(input("How many items did that get you? > "))
+price=round(float(pay/items),2)
+print(f"The price per item is €{price}.")
